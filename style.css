@@ -190,7 +190,7 @@ blockquote {
 	-moz-border-left-colors: none;
 	-moz-border-right-colors: none;
 	-moz-border-top-colors: none;
-	border-color: #EAEAEA #EAEAEA #EAEAEA #632E9B;
+	border-color: #EAEAEA #EAEAEA #EAEAEA #3498db;
 	border-image: none;
 	border-style: solid;
 	border-width: 1px 1px 1px 3px;
@@ -285,7 +285,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	background-color: #632E9B;
+	background-color: #3498db;
 	border: none;
 	border-radius: 4px;
 	color: #FFFFFF;
@@ -354,7 +354,7 @@ textarea {
 
 /* Links */
 a {
-	color: #632E9B;
+	color: #3498db;
 	text-decoration: none;
 }
 a:visited {
@@ -526,7 +526,7 @@ body.admin-bar .header-wrap {
 	color: #444444;
 }
 .site-title a:hover {
-	color: #632E9B;
+	color: #3498db;
 }
 .site-description {
 	display: none;
@@ -541,7 +541,7 @@ img.header-image {
 	position: absolute;
 	right: 0;
 	top: 65px;
-	background-color: #632E9B;
+	background-color: #3498db;
 	padding: 10px 20px;
 	display: none;
 	z-index: 999;
@@ -560,7 +560,7 @@ img.header-image {
 }
 .header-search-icon:before {
 	content: '\f400';
-	color: #632E9B;
+	color: #3498db;
 	display: inline-block;
 	-webkit-font-smoothing: antialiased;
 	font: normal 40px/1 'Genericons';
@@ -602,7 +602,7 @@ img.header-image {
 .main-navigation ul li.current-menu-ancestor a, 
 .main-navigation ul li.current_page_item a,
 .main-navigation ul li:hover > a {
-	background-color: #632E9B;
+	background-color: #3498db;
 	color: #ffffff;
 }
 
@@ -647,7 +647,7 @@ img.header-image {
 .main-navigation ul li ul li a:hover,
 .main-navigation ul li ul li:hover > a,
 .main-navigation ul li.current-menu-item ul li a:hover {
-	background-color: #632E9B;
+	background-color: #3498db;
 	color: #ffffff;
 }
 .main-navigation ul ul ul {
@@ -707,7 +707,7 @@ img.header-image {
 	color: #444444;
 }
 #content .entry-title a:hover {
-	color: #632E9B;
+	color: #3498db;
 	text-decoration: none;
 }
 
@@ -729,13 +729,13 @@ img.header-image {
 	font-size: 1.4rem;
 }
 .entry-meta span:hover {
-	color: #632E9B;
+	color: #3498db;
 }
 .entry-meta span a {
 	color: #999999;
 }
 #content .entry-meta span a:hover {
-	color: #632E9B;
+	color: #3498db;
 	text-decoration: none;
 }
 
@@ -801,9 +801,9 @@ img.header-image {
 	padding: 4px 10px;
 }
 #featured_pages a.more-link:hover {
-	border: 1px solid #632E9B;
+	border: 1px solid #3498db;
 	border-radius: 4px;
-	color: #632E9B;
+	color: #3498db;
 	padding: 4px 10px;
 	text-decoration: none;
 }
@@ -979,18 +979,18 @@ object {
 #content .comments-area article header cite a:hover,
 #content .comments-area a.comment-edit-link:hover,
 #content .comments-area a.comment-permalink:hover {
-	color: #632E9B;
+	color: #3498db;
 }
 .comments-area .comment-author-link a {
 	color: #999999;
 }
 .comments-area .comment-author-link a:hover {
-	color: #632E9B;
+	color: #3498db;
 }
 .comments-area .comment-author-link span {
 	margin-left: 10px;
 	padding: 0 5px;
-	background-color: #632E9B;
+	background-color: #3498db;
 	color: #FFFFFF;
 	border-radius: 3px;
 }
@@ -1026,7 +1026,7 @@ object {
 	color: #999999;
 }
 .comment .comment-reply-link:hover {
-	color: #632E9B;
+	color: #3498db;
 }
 .comment .comment-reply-link:before {
 	content: '\f412';
@@ -1171,7 +1171,7 @@ object {
 }
 
 .site-header .menu-toggle {
-	background: #632E9B;
+	background: #3498db;
 	color: #fff;
 	font-size: 30px;
 	font-size: 3rem;
@@ -1180,7 +1180,7 @@ object {
 	margin: 0;
 }
 .site-header .menu-toggle:hover {
- 	background: #632E9B;
+ 	background: #3498db;
 }
 .site-header .menu-toggle:before {
 	content: '\f419';
@@ -1212,7 +1212,7 @@ object {
   font-size: 14px;
 }
 .main-small-navigation li:hover {
-  background: #632E9B;
+  background: #3498db;
 }
 .main-small-navigation li:hover > a {
 	color: #ffffff;
@@ -1225,7 +1225,7 @@ object {
 }
 .main-small-navigation ul > .current_page_item,
 .main-small-navigation ul > .current-menu-item {
-  background: #632E9B;
+  background: #3498db;
 }
 .main-small-navigation ul > .current_page_item a,
 .main-small-navigation ul > .current-menu-item  a{
@@ -1243,7 +1243,7 @@ object {
 .main-small-navigation ul li ul li a:hover,
 .main-small-navigation ul li ul li:hover > a,
 .main-small-navigation ul li.current-menu-item ul li a:hover {
-	background-color: #632E9B;
+	background-color: #3498db;
 	color: #ffffff;
 }
 
