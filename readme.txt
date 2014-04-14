@@ -17,6 +17,7 @@ Resources packed within the theme.
   Licensed under the GPL, version 2 or later http://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
 * Image used as deafault header image(s) and used in the screenshot are from public domain http://unsplash.com/
 * Custom js file is our own creation and is licensed under the same license as this theme.
+* HTML5 Shiv @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed
 
 All other resources and theme elements are licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 
@@ -76,3 +77,12 @@ and we will include it within the theme from next version update.
 * Added dependency for custom.js file and loaded it in footer. 
 * Naming change for wrong theme textdomain. 
 * Naming change for featured page section in customizer. 
+
+= Version 1.0.3 = 
+* Some CSS adjustment for gallery one column.
+* Added CSS to hide the smiley shown at bottom by Jetpack plugins stats.
+* Default header image thumbnail file name corrected.
+* CSS adjustment for Comments section, Header part, menu in small devices. 
+* Added french language file. Thanks to Mr. Wolforg (http://www.wptrads.com/theme/radiate) for providing us the translation file.
+* Some more description added in Theme description.
+* html5 support for lower versions of IE.

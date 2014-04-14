@@ -100,10 +100,11 @@ function radiate_internal_css() {
 		$header = get_header_image();
 
 		$header_image = "background-image: url('$header');";
-		$header_repeat = " background-repeat: repeat-x;";
-		$header_position = " background-position: center top;";
+		$header_repeat = " background-repeat: no-repeat;";
+		$header_width = " max-width: 100%; height: 480px; background-size: cover;";
+		$header_position = " background-position: center bottom;";
 		$header_attachment = " background-attachment: scroll;";
-		$header_image_style = $header_image . $header_repeat . $header_position . $header_attachment;
+		$header_image_style = $header_image . $header_repeat . $header_width . $header_position . $header_attachment;
 		?>
 		<style type="text/css" id="custom-header-css">
 		#parallax-bg { <?php echo trim( $header_image_style ); ?> } #masthead { margin-bottom: <?php echo $height; ?>px; } 

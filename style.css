@@ -3,8 +3,8 @@ Theme Name: Radiate
 Theme URI: http://themegrill.com/themes/radiate/
 Author: ThemeGrill
 Author URI: http://themegrill.com/
-Description: Radiate is a clean, creative and light retina ready responsive blogging theme supporting parallax header image. It integrates primary color option, custom background, custom css and few other features through WordPress customizer. The theme is translation ready and you can get free support on http://themegrill.com/support-forum.
-Version: 1.0.2
+Description: Radiate is a clean, creative and light retina ready responsive blogging theme supporting parallax header image. It integrates primary color option, custom background, custom css and few other features through WordPress customizer. The theme is translation ready and you can get free support on http://themegrill.com/support-forum. View demo at http://demo.themegrill.com/radiate. Available Translations -> French.
+Version: 1.0.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: radiate
@@ -264,6 +264,10 @@ img {
 	height: auto; /* Make sure images are scaled correctly. */
 	max-width: 100%; /* Adhere to container width. */
 }
+/* For icon display hide of jetpack site stats */
+img#wpstats {
+ 	display: none;
+}
 button,
 input,
 select,
@@ -508,7 +512,8 @@ body.admin-bar .header-wrap {
 .site-branding {
 	float: left;
 	font-family: 'Roboto';
-	max-width: 28%;
+	max-width: 100%;
+	margin-right: 30px;
 }
 .site-title {
 	font-size: 36px;
@@ -568,7 +573,7 @@ img.header-image {
 
 .main-navigation {
 	float: right;
-	max-width: 66%;
+	max-width: 100%;
 }
 .main-navigation ul {
 	list-style: none;
@@ -882,7 +887,7 @@ img.header-image {
 	overflow: hidden; 
 	line-height: 0; 
 }
-.gallery-columns-1 .gallery-item { float: none; text-align: center; width:100%; }
+.gallery-columns-1 .gallery-item { float: none; text-align: center; width:100%; margin: 10px 0 20px; }
 .gallery-columns-2 .gallery-item { width:47%; }
 .gallery-columns-3 .gallery-item { width:30%; }
 .gallery-columns-4 .gallery-item { width:22%; }
@@ -1030,6 +1035,10 @@ object {
 	font: normal 22px/1 'Genericons';
 	vertical-align: top;
 }
+.comment-list {
+	margin-bottom: 34px;
+	margin-bottom: 3.4rem;
+}
 .comment-list .children {
    margin-left: 20px;
 }
@@ -1040,8 +1049,6 @@ object {
 
 /* Comment form */
 #respond {
-	margin-top: 34px;
-	margin-top: 3.4rem;
 }
 #respond h3#reply-title {
 	line-height: 1.5;
@@ -1184,7 +1191,7 @@ object {
 	padding-top: 8px;
 }
 .main-small-navigation {
-	width: 40%;
+	width: 66px;
 	float: right;
 	padding-top: 0;
 	background-color: #000;
@@ -1277,9 +1284,21 @@ object {
 	.main-navigation {
 		margin: 1rem 2.5rem 0 0;
 	}
+	.main-small-navigation ul {
+		width: 200px;
+		margin-left: -134px;
+	}
+	.main-small-navigation ul ul {
+		margin-left: 0;
+	}
 	.tg-one-third {
 		width: 100%;
 		float: none;
 	}
+}
+@media only screen and (max-width: 600px) {
+	.header-wrap {
+		position: relative;
+	}	
 }
 
